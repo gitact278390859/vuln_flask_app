@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      security-events: write
+      security-events: read
       contents: read
       actions: read
 
