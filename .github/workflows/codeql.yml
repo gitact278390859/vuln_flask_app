@@ -18,7 +18,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ 'html', 'python' ] # adjust to your stack
+        language: [ 'python' ] 
 
     steps:
     - name: Checkout code
